@@ -1,6 +1,14 @@
 # GCP-Recon
 GCP Project Numbers, validate IDs, and enumerate service accounts by exploiting Google API request
 
+
+### Details
+
+**Summary:**  Correct guessing of  `PROJECT_ID`, extraction of the associated  `PROJECT_NUMBER`, and verification of enabled services.
+
+> **Note:**  The critical aspect of this method is the ability to extract the  `PROJECT_NUMBER`  for any target project, even without having direct access permissions. Furthermore, it allows for validating the existence of a  `PROJECT_ID`  and identifying the specific enabled services within that project.  **Reproduction Steps:**
+
+
 1.  **Generate an API Key:**  Create a token at:  [https://aistudio.google.com/api-keys](https://aistudio.google.com/api-keys)
     
 2.  **Generate an Auth Token:**  Create an OAuth access token via:  [https://developers.google.com/oauthplayground/](https://developers.google.com/oauthplayground/)
