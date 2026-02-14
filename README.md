@@ -1,6 +1,5 @@
 # GCP-Recon
-GCP Project Numbers, validate IDs, and enumerate service accounts by exploiting Google API request
-
+GCP Project Numbers Validation & Service Account Enumeration via Google API Behavior
 
 ### Details
 
